@@ -7,7 +7,7 @@ html {
  
 body {
     font: lighter 18px/27px 'OpenSans', Arial, sans-serif;
-    background:url(images/bg.gif) repeat;
+    background: #191718;
     height: 100%;
     position:relative;
 }
@@ -661,6 +661,11 @@ input {
         .stream-more.loading span {
             display:none;
         }
+
+	/* Olivier */
+	.stream-empty {
+		color: white;	
+	}
         
 #fullscreen-entry {
     display:none;
